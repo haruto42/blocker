@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blocker</title>
+</head>
+<body>
+  <script src="device-memo.js"></script>
+  <script>
+    // アクセスしたら端末情報を記録し、そのままクラウドへ送る
+    DeviceMemo.record().then(function () { return DeviceMemo.sendPending(); });
+  </script>
+</body>
+</html>
