@@ -5,4 +5,4 @@ compatibility_date = "2026-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "blocker-db"
-database_id = "ここにD1作成後のIDを入れる"
+database_id = "bf6ac0bd-60e4-4663-8e95-7932d635554e"
